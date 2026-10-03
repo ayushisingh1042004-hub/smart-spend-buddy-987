@@ -82,14 +82,18 @@ npm
 
 Installation
 Clone the repository:
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ayushisingh1042004-hub/smart-spend-buddy-987
 
 Navigate to the project directory:
+
 cd smart-spend-hub
+
 Install dependencies:
 npm install
+
 Start the development server:
 npm run dev
+
 The application will then be available on the local development server.
 
 📊 Main Modules
@@ -128,5 +132,6 @@ Smart Spend Hub
 Developed as an academic/project application focused on personal finance management and data visualization.
 
 🔗 Links
-Live Application:
-GitHub Repository:
+Live Application:https://smart-spend-buddy-987-cm1o-mkcuo9bo4-yyy-7a49.vercel.app/
+
+GitHub Repository:https://github.com/ayushisingh1042004-hub/smart-spend-buddy-987

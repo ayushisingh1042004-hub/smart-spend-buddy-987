@@ -16,7 +16,7 @@ export function CategoryDonut({ data }: { data: CategorySlice[] }) {
   const total = data.reduce((s, d) => s + d.amount, 0);
 
   return (
-    <div className="flex flex-col items-center gap-5 sm:flex-row">
+    <div className="flex flex-col items-center gap-5">
       <div className="relative size-40 shrink-0">
         <ResponsiveContainer width="100%" height="100%">
           <PieChart>

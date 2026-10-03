@@ -57,7 +57,7 @@ function Dashboard() {
         <LoadingGrid />
       ) : (
         <>
-          <section className="grid grid-cols-2 gap-4 lg:grid-cols-3 xl:grid-cols-6">
+          <section className="grid grid-cols-2 gap-4 lg:grid-cols-3">
             <StatCard label="Total income" value={formatCurrency(all.income)} hint="all time" icon={ArrowUpRight} />
             <StatCard label="Total expenses" value={formatCurrency(all.expenses)} hint="all time" icon={ArrowDownRight} />
             <StatCard label="Current balance" value={formatCurrency(all.balance)} hint="income − expenses" icon={Wallet} featured />

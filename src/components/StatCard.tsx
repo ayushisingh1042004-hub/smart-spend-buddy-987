@@ -12,7 +12,7 @@ export function StatCard({
 }: {
   label: string;
   value: string;
-  hint?: string;
+  hint?: string | undefined;
   hintTone?: "muted" | "income" | "expense" | "gold";
   icon?: LucideIcon;
   featured?: boolean;

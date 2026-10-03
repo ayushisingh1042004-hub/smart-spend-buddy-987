@@ -14,13 +14,13 @@ export function currentMonthKey(): string {
 }
 
 export function previousMonthKey(key = currentMonthKey()): string {
-  const [y, m] = key.split("-").map(Number);
+  const [y = 0, m = 1] = key.split("-").map(Number);
   const d = new Date(y, m - 2, 1);
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
 }
 
 export function monthLabel(key: string): string {
-  const [y, m] = key.split("-").map(Number);
+  const [y = 0, m = 1] = key.split("-").map(Number);
   return new Date(y, m - 1, 1).toLocaleDateString("en-IN", { month: "short" });
 }
 
